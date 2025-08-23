@@ -1,0 +1,12 @@
+class Solution:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        def inorder(node, res):
+            if not node:
+                return
+            inorder(node.left, res)      # 1. Traverse left subtree
+            res.append(node.val)         # 2. Visit root
+            inorder(node.right, res)     # 3. Traverse right subtree
+        
+        result = []
+        inorder(root, result)
+        return result
