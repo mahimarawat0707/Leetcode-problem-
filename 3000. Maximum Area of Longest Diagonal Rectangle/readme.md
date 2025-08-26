@@ -6,8 +6,6 @@ For all indices i, 0 <= i < dimensions.length, dimensions[i][0] represents the l
 
 Return the area of the rectangle having the longest diagonal. If there are multiple rectangles with the longest diagonal, return the area of the rectangle having the maximum area.
 
- 
-
 Example 1:
 
 Input: dimensions = [[9,3],[8,6]]
