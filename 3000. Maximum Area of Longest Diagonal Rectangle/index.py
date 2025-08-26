@@ -17,8 +17,6 @@ class Solution:
 
         return max_area
 
-
-# Example usage (optional, for testing in VS Code):
 if __name__ == "__main__":
     solution = Solution()
     dimensions =  [[9,3],[8,6]]
