@@ -14,7 +14,6 @@ class Solution:
                 max_area = area
             elif diag_sq == max_diag_sq:
                 max_area = max(max_area, area)
-
         return max_area
 
 if __name__ == "__main__":
