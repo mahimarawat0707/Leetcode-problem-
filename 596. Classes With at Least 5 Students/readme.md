@@ -1,4 +1,4 @@
-596. Classes With at Least 5 Students
+# 596. Classes With at Least 5 Students
 
 Table: Courses
 
