@@ -9,3 +9,4 @@ class Solution:
                 dp[share_day] = (dp[share_day] + dp[day]) % MOD
 
         return sum(dp[n - forget + 1: n + 1]) % MOD
+    
