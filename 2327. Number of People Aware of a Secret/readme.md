@@ -6,8 +6,6 @@ You are given an integer delay, which means that each person will share the secr
 
 Given an integer n, return the number of people who know the secret at the end of day n. Since the answer may be very large, return it modulo 109 + 7.
 
- 
-
 Example 1:
 
 Input: n = 6, delay = 2, forget = 4
