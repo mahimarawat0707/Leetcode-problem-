@@ -15,7 +15,7 @@ class Solution:
             elif diag_sq == max_diag_sq:
                 max_area = max(max_area, area)
         return max_area
-
+    
 if __name__ == "__main__":
     solution = Solution()
     dimensions =  [[9,3],[8,6]]
