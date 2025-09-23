@@ -7,7 +7,6 @@ class Solution:
         # Get the maximum length between both
         n = max(len(v1), len(v2))
         
-        # Compare revision by revision
         for i in range(n):
             # If index out of range, treat as 0
             num1 = int(v1[i]) if i < len(v1) else 0
