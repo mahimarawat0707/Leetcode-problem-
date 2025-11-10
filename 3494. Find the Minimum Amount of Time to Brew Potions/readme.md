@@ -9,7 +9,6 @@ Since the brewing process is delicate, a potion must be passed to the next wizar
 Return the minimum amount of time required for the potions to be brewed properly.
 
  
-
 Example 1:
 
 Input: skill = [1,5,2,4], mana = [5,1,4,2]
