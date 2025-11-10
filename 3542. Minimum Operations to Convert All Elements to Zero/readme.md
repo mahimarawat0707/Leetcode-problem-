@@ -7,7 +7,6 @@ In one operation, you can select a subarray [i, j] (where 0 <= i <= j < n) and s
 Return the minimum number of operations required to make all elements in the array 0.
 
  
-
 Example 1:
 
 Input: nums = [0,2]
