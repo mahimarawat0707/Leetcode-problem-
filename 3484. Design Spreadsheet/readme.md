@@ -11,7 +11,6 @@ int getValue(String formula) Evaluates a formula of the form "=X+Y", where X and
 Note: If getValue references a cell that has not been explicitly set using setCell, its value is considered 0.
 
  
-
 Example 1:
 
 Input:
