@@ -1,9 +1,5 @@
-3541. Find Most Frequent Vowel and Consonant
-Easy
-Topics
-premium lock icon
-Companies
-Hint
+# 3541. Find Most Frequent Vowel and Consonant
+
 You are given a string s consisting of lowercase English letters ('a' to 'z').
 
 Your task is to:
