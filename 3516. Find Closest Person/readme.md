@@ -15,7 +15,6 @@ Return 0 if both arrive at the same time.
 Return the result accordingly.
 
  
-
 Example 1:
 
 Input: x = 2, y = 7, z = 4
