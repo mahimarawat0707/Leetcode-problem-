@@ -9,7 +9,6 @@ Replace them with floor(a / 4) and floor(b / 4).
 Your task is to determine the minimum number of operations required to reduce all elements of the array to zero for each query. Return the sum of the results for all queries.
 
  
-
 Example 1:
 
 Input: queries = [[1,2],[2,4]]
