@@ -10,7 +10,6 @@ If a fruit type cannot be placed in any basket, it remains unplaced.
 Return the number of fruit types that remain unplaced after all possible allocations are made.
 
  
-
 Example 1:
 
 Input: fruits = [4,2,5], baskets = [3,5,4]
