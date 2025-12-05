@@ -2,14 +2,14 @@
 
 Table: Employees
 
-+-------------+----------+
+
 | Column Name | Type     |
-+-------------+----------+
+|-------------|----------|
 | employee_id | int      |
 | name        | varchar  |
 | manager_id  | int      |
 | salary      | int      |
-+-------------+----------+
+
 In SQL, employee_id is the primary key for this table.
 This table contains information about the employees, their salary, and the ID of their manager. Some employees do not have a manager (manager_id is null). 
  
@@ -26,22 +26,22 @@ Example 1:
 
 Input:  
 Employees table:
-+-------------+-----------+------------+--------+
+
 | employee_id | name      | manager_id | salary |
-+-------------+-----------+------------+--------+
+|-------------|-----------|------------|--------|
 | 3           | Mila      | 9          | 60301  |
 | 12          | Antonella | null       | 31000  |
 | 13          | Emery     | null       | 67084  |
 | 1           | Kalel     | 11         | 21241  |
 | 9           | Mikaela   | null       | 50937  |
 | 11          | Joziah    | 6          | 28485  |
-+-------------+-----------+------------+--------+
+
 Output: 
-+-------------+
+
 | employee_id |
-+-------------+
+|-------------|
 | 11          |
-+-------------+
+
 
 Explanation: 
 The employees with a salary less than $30000 are 1 (Kalel) and 11 (Joziah).
