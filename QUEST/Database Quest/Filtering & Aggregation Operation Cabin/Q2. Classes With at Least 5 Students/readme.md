@@ -2,12 +2,12 @@
 
 Table: Courses
 
-+-------------+---------+
+
 | Column Name | Type    |
-+-------------+---------+
+|-------------|---------|
 | student     | varchar |
 | class       | varchar |
-+-------------+---------+
+
 (student, class) is the primary key (combination of columns with unique values) for this table.
 Each row of this table indicates the name of a student and the class in which they are enrolled.
  
@@ -24,9 +24,9 @@ Example 1:
 
 Input: 
 Courses table:
-+---------+----------+
+
 | student | class    |
-+---------+----------+
+|---------|----------|
 | A       | Math     |
 | B       | English  |
 | C       | Math     |
@@ -36,13 +36,13 @@ Courses table:
 | G       | Math     |
 | H       | Math     |
 | I       | Math     |
-+---------+----------+
+
 Output: 
-+---------+
+
 | class   |
-+---------+
+|---------|
 | Math    |
-+---------+
+
 Explanation: 
 - Math has 6 students, so we include it.
 - English has 1 student, so we do not include it.
