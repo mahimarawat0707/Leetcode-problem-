@@ -2,12 +2,11 @@
 
 Table: Users
 
-+-----------------+---------+
 | Column Name     | Type    |
-+-----------------+---------+
+|-----------------|---------|
 | user_id         | int     |
 | email           | varchar |
-+-----------------+---------+
+
 (user_id) is the unique key for this table.
 Each row contains a user's unique ID and email address.
 Write a solution to find all the valid email addresses. A valid email address meets the following criteria:
@@ -26,23 +25,23 @@ Input:
 
 Users table:
 
-+---------+---------------------+
+
 | user_id | email               |
-+---------+---------------------+
+|---------|---------------------|
 | 1       | alice@example.com   |
 | 2       | bob_at_example.com  |
 | 3       | charlie@example.net |
 | 4       | david@domain.com    |
 | 5       | eve@invalid         |
-+---------+---------------------+
+
 Output:
 
-+---------+-------------------+
+
 | user_id | email             |
-+---------+-------------------+
+|---------|-------------------|
 | 1       | alice@example.com |
 | 4       | david@domain.com  |
-+---------+-------------------+
+
 Explanation:
 
 alice@example.com is valid because it contains one @, alice is alphanumeric, and example.com starts with a letter and ends with .com.
