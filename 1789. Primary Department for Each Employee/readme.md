@@ -2,13 +2,13 @@
 
 Table: Employee
 
-+---------------+---------+
+
 | Column Name   |  Type   |
-+---------------+---------+
+|---------------|---------|
 | employee_id   | int     |
 | department_id | int     |
 | primary_flag  | varchar |
-+---------------+---------+
+
 (employee_id, department_id) is the primary key (combination of columns with unique values) for this table.
 employee_id is the id of the employee.
 department_id is the id of the department to which the employee belongs.
@@ -29,9 +29,9 @@ Example 1:
 
 Input: 
 Employee table:
-+-------------+---------------+--------------+
+
 | employee_id | department_id | primary_flag |
-+-------------+---------------+--------------+
+|-------------|---------------|--------------|
 | 1           | 1             | N            |
 | 2           | 1             | Y            |
 | 2           | 2             | N            |
@@ -39,16 +39,16 @@ Employee table:
 | 4           | 2             | N            |
 | 4           | 3             | Y            |
 | 4           | 4             | N            |
-+-------------+---------------+--------------+
+
 Output: 
-+-------------+---------------+
+
 | employee_id | department_id |
-+-------------+---------------+
+|-------------|---------------|
 | 1           | 1             |
 | 2           | 1             |
 | 3           | 3             |
 | 4           | 3             |
-+-------------+---------------+
+
 Explanation: 
 - The Primary department for employee 1 is 1.
 - The Primary department for employee 2 is 1.
