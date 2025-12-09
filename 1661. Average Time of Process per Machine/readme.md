@@ -2,14 +2,14 @@
 
 Table: Activity
 
-+----------------+---------+
+
 | Column Name    | Type    |
-+----------------+---------+
+|----------------|---------|
 | machine_id     | int     |
 | process_id     | int     |
 | activity_type  | enum    |
 | timestamp      | float   |
-+----------------+---------+
+
 The table shows the user activities for a factory website.
 (machine_id, process_id, activity_type) is the primary key (combination of columns with unique values) of this table.
 machine_id is the ID of a machine.
@@ -37,9 +37,9 @@ Example 1:
 
 Input: 
 Activity table:
-+------------+------------+---------------+-----------+
+
 | machine_id | process_id | activity_type | timestamp |
-+------------+------------+---------------+-----------+
+|------------|------------|---------------|-----------|
 | 0          | 0          | start         | 0.712     |
 | 0          | 0          | end           | 1.520     |
 | 0          | 1          | start         | 3.140     |
@@ -52,15 +52,15 @@ Activity table:
 | 2          | 0          | end           | 4.512     |
 | 2          | 1          | start         | 2.500     |
 | 2          | 1          | end           | 5.000     |
-+------------+------------+---------------+-----------+
+
 Output: 
-+------------+-----------------+
+
 | machine_id | processing_time |
-+------------+-----------------+
+|------------|-----------------|
 | 0          | 0.894           |
 | 1          | 0.995           |
 | 2          | 1.456           |
-+------------+-----------------+
+
 Explanation: 
 There are 3 machines running 2 processes each.
 Machine 0's average time is ((1.520 - 0.712) + (4.120 - 3.140)) / 2 = 0.894
