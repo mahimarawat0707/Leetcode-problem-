@@ -2,12 +2,12 @@
 
 Table: Person
 
-+-------------+---------+
+
 | Column Name | Type    |
-+-------------+---------+
+|-------------|---------|
 | id          | int     |
 | email       | varchar |
-+-------------+---------+
+
 id is the primary key (column with unique values) for this table.
 Each row of this table contains an email. The emails will not contain uppercase letters.
  
@@ -28,18 +28,18 @@ Example 1:
 
 Input: 
 Person table:
-+----+------------------+
+
 | id | email            |
-+----+------------------+
+|----|------------------|
 | 1  | john@example.com |
 | 2  | bob@example.com  |
 | 3  | john@example.com |
-+----+------------------+
+
 Output: 
-+----+------------------+
+
 | id | email            |
-+----+------------------+
+|----|------------------|
 | 1  | john@example.com |
 | 2  | bob@example.com  |
-+----+------------------+
+
 Explanation: john@example.com is repeated two times. We keep the row with the smallest Id = 1.
