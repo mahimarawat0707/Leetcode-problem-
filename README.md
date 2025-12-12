@@ -32,5 +32,5 @@
 | Difficulty | Solved |
 | ---------- | ------ |
 | Easy       | 141/908 ✅|
-| Medium     | 83/1936 ✅|
+| Medium     | 84/1936 ✅|
 | Hard       | 19/877   ✅|
