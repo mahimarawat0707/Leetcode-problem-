@@ -20,7 +20,7 @@
 * SQL
 
 ---
-
+    
 ### 🧠 My Goals with this Repo
 * Improve consistency in problem solving
 * Learn optimized patterns and algorithms
