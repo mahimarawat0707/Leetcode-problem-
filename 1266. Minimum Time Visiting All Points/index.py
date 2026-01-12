@@ -13,7 +13,7 @@ class Solution:
         return Ans
 
 
-# Example usage 👇
+# Example usage
 if __name__ == "__main__":
     points = [[1, 1], [3, 4], [-1, 0]]
     sol = Solution()
