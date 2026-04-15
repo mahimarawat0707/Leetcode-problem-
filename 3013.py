@@ -5,7 +5,6 @@ class Solution:
         for right in range(1, len(nums)):
             left = right - dist - 1
 
-            # Move the left border of the window
             if left > 0 and left in used:
                     # If the left element was used in calculating the cost, then we delete it
                 used.remove(left)
