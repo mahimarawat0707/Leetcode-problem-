@@ -21,10 +21,3 @@ class Fancy:
         if idx >= len(self.val):
             return -1  
         return (self.a * self.val[idx] + self.b) % self.mod
-
-# Your Fancy object will be instantiated and called as such:
-# obj = Fancy()
-# obj.append(val)
-# obj.addAll(inc)
-# obj.multAll(m)
-# param_4 = obj.getIndex(idx)
