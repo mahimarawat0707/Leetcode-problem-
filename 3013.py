@@ -6,7 +6,6 @@ class Solution:
             left = right - dist - 1
 
             if left > 0 and left in used:
-                    # If the left element was used in calculating the cost, then we delete it
                 used.remove(left)
                 s -= nums[left]
 
