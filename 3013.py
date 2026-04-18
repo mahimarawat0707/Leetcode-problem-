@@ -9,7 +9,6 @@ class Solution:
                 used.remove(left)
                 s -= nums[left]
 
-                    # Find the smallest unused element within the window boundary
                 while heap_unused and heap_unused[0][1] < left:
                     heappop(heap_unused)
 
