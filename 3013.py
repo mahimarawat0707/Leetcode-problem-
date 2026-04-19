@@ -12,7 +12,7 @@ class Solution:
                 while heap_unused and heap_unused[0][1] < left:
                     heappop(heap_unused)
 
-                if heap_unused: # If it exists, use it to calculate the cost
+                if heap_unused:
                     num, i = heappop(heap_unused)
                     heappush(heap_used, (-num, i))
                     used.add(i)
