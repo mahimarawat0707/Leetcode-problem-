@@ -86,7 +86,6 @@ class Solution:
 
         seg = segmentTree(prefix)
         
-        # find maximum length
         maxlen = 0
         for i in range(n):
             if i > 0:
