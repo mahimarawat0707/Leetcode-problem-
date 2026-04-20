@@ -72,7 +72,6 @@ class Solution:
     def longestBalanced(self, nums: List[int]) -> int:
         n = len(nums)
 
-        # calculate parity prefix sum
         prefix = [0] * n
         exist = dict()
         for i in range(n):
