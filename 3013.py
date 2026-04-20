@@ -34,7 +34,6 @@ class Solution:
 
                     heappush(heap_unused, (-num, i))
                 else:
-                    # If the element being added to the window is larger than the largest used element, 
                     heappush(heap_unused, (nums[right], right))
 
             if left >= 0:
