@@ -18,7 +18,6 @@ class Solution:
                     used.add(i)
                     s += num
 
-            # Move the right border of the window
             if len(used) < k - 1:
                 # If less than k-1 elements are used, use the added element to calculate the cost
                 heappush(heap_used, (-nums[right], right))
