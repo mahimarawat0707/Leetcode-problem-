@@ -19,7 +19,6 @@ class Solution:
                     s += num
 
             if len(used) < k - 1:
-                # If less than k-1 elements are used, use the added element to calculate the cost
                 heappush(heap_used, (-nums[right], right))
                 used.add(right)
                 s += nums[right]
