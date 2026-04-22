@@ -23,7 +23,6 @@ class Solution:
                 used.add(right)
                 s += nums[right]
             else:
-                    #Find the largest used element
                 while heap_used[0][1] not in used:
                     heappop(heap_used)
                 
