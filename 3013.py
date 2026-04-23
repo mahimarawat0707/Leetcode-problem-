@@ -27,7 +27,6 @@ class Solution:
                     heappop(heap_used)
                 
                 if nums[right] < -heap_used[0][0]:
-                        # If it is larger than the element being added to the window, replace it
                     num, i = heapreplace(heap_used, (-nums[right], right))
                     used.remove(i)
                     used.add(right)
