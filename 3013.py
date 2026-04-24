@@ -32,7 +32,6 @@ class Solution:
                     used.add(right)
                     s += num + nums[right]
 
-                        # Add the vacated element to the unused element heap
                     heappush(heap_unused, (-num, i))
                 else:
                     # If the element being added to the window is larger than the largest used element, 
