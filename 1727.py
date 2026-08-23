@@ -8,6 +8,7 @@ class Solution:
             for j in range(n):
                 if matrix[i][j] == 1:
                     matrix[i][j] += matrix[i - 1][j]
+                    
         for i in range(m):
             matrix[i].sort(reverse=True)
             for j in range(n):
