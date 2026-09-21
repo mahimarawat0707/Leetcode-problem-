@@ -13,5 +13,5 @@ class Solution:
             matrix[i].sort(reverse=True)
             for j in range(n):
                 res = max(res, matrix[i][j] * (j + 1))
-
+    
         return res
